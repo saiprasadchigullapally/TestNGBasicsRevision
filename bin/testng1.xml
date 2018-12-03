@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Yahoo App Test Automation Suite" parallel="tests" thread-count="5">
+
+
+	<test name=" Yahoo App Test">
+
+        <parameter name="env"     value="QA"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+		<parameter name="url"     value="http://www.yahoo.com"></parameter>
+		<parameter name="emailid" value="saiprasad143@yahoo.com"></parameter>
+		
+		
+		
+
+
+
+
+
+
+
+		<classes>
+
+			<class name="com.parameters.ParametersTestClass">
+			</class>
+
+
+		</classes>
+
+
+	</test>
+
+
+</suite>

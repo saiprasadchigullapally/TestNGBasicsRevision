@@ -1,0 +1,25 @@
+In xml format we found 
+-- Environmental variables
+-- configuarion variables
+--------------------------------Structure of xml--------------------------------
+
+<suite name=" suite name">
+
+<test name=" test name">
+
+<parameter name=" " value=" ">
+<parameter name=" " value=" ">
+
+<classes>
+<class   name=" packagname.classname"></class>
+<class   name=" packagname.classname"></class>
+
+</classes> 
+
+
+
+
+</test>
+
+
+</Suite>

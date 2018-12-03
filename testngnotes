@@ -1,0 +1,23 @@
+TestNg -- unit test framework
+TDD -- Test Driven Development
+DDF	-Data driven Development Framework.
+
+
+purpose --- design test cases in a systematic way
+
+--- we get html reports
+--- difference annotations
+--- priorities/sequence
+--- dependency
+--- grouping 
+--- data provider
+
+
+--- TestNG -- open source , free
+Available in jar files
+ 
+ ---- java unit testing framework
+ 
+ install testNg in eclipse
+ 
+ 

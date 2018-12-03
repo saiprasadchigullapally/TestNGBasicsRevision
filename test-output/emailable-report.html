@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">TestNG Session Test Automation Suite</th></tr>
+<tr><td><a href="#t0">Different Testing Feature Test</a></td><td class="num">13</td><td class="num">0</td><td class="num attn">2</td><td class="num">200</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG Session Test Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Different Testing Feature Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.test.TestNGfeatures</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1543282489468</td><td rowspan="1">2</td></tr><tr class="failedodd"><td rowspan="1">com.test.timeOutFeture</td><td><a href="#m1">timeOut</a></td><td rowspan="1">1543282489475</td><td rowspan="1">16</td></tr><tr><th colspan="4">Different Testing Feature Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.test.ExpectedException</td><td><a href="#m2">nuberFormatException</a></td><td rowspan="1">1543282489336</td><td rowspan="1">7</td></tr><tr class="passedodd"><td rowspan="10">com.test.InvocationCountTest</td><td><a href="#m3">sum</a></td><td rowspan="10">1543282489410</td><td rowspan="10">3</td></tr><tr class="passedodd"><td><a href="#m4">sum</a></td></tr><tr class="passedodd"><td><a href="#m5">sum</a></td></tr><tr class="passedodd"><td><a href="#m6">sum</a></td></tr><tr class="passedodd"><td><a href="#m7">sum</a></td></tr><tr class="passedodd"><td><a href="#m8">sum</a></td></tr><tr class="passedodd"><td><a href="#m9">sum</a></td></tr><tr class="passedodd"><td><a href="#m10">sum</a></td></tr><tr class="passedodd"><td><a href="#m11">sum</a></td></tr><tr class="passedodd"><td><a href="#m12">sum</a></td></tr><tr class="passedeven"><td rowspan="2">com.test.TestNgBasics</td><td><a href="#m13">googleTitleTest</a></td><td rowspan="1">1543282489447</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m14">searchTest</a></td><td rowspan="1">1543282489461</td><td rowspan="1">2</td></tr></tbody>
+</table>
+<h2>Different Testing Feature Test</h2><h3 id="m0">com.test.TestNGfeatures#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArithmeticException: / by zero
+	at com.test.TestNGfeatures.loginTest(TestNGfeatures.java:10)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.test.timeOutFeture#timeOut</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.internal.thread.ThreadTimeoutException: Method com.test.timeOutFeture.timeOut() didn&apos;t finish within the time-out 2
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.PrintStream.write(PrintStream.java:482)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:104)
+	at java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
+	at java.io.PrintStream.newLine(PrintStream.java:546)
+	at java.io.PrintStream.println(PrintStream.java:807)
+	at com.test.timeOutFeture.timeOut(timeOutFeture.java:14)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 7 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.test.ExpectedException#nuberFormatException</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;Sai14433&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.test.ExpectedException.nuberFormatException(ExpectedException.java:12)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.test.InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.test.TestNgBasics#googleTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.test.TestNgBasics#searchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

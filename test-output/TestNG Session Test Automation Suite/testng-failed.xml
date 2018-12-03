@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Session Test Automation Suite]">
+  <test thread-count="5" name="Different Testing Feature Test(failed)">
+    <classes>
+      <class name="com.test.TestNGfeatures">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.test.TestNGfeatures -->
+      <class name="com.test.timeOutFeture">
+        <methods>
+          <include name="timeOut"/>
+        </methods>
+      </class> <!-- com.test.timeOutFeture -->
+    </classes>
+  </test> <!-- Different Testing Feature Test(failed) -->
+</suite> <!-- Failed suite [TestNG Session Test Automation Suite] -->

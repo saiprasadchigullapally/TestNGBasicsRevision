@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Session Test Automation Suite" parallel ="tests" thread-count="5">
+
+<test name="Different Testing Feature Test">
+
+<classes>
+
+<class name="com.test.ExpectedException"></class>
+<class name="com.test.GoogleTest"></class>
+<class name="com.test.InvocationCountTest"></class>
+<class name="com.test.TestNgBasics"></class>
+<class name="com.test.TestNGfeatures"></class>
+<class name="com.test.timeOutFeture"></class>
+
+
+
+</classes>
+
+</test>
+
+</suite>
